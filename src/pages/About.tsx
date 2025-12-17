@@ -9,7 +9,7 @@ import {
   Target,
   CheckCircle2
 } from "lucide-react";
-import doctorImage from "@/assets/doctor-portrait.jpg";
+import doctorImage from "@/assets/image.png";
 import { CTASection } from "@/components/sections/CTASection";
 
 const philosophy = [
@@ -69,45 +69,28 @@ const About = () => {
 
       {/* About Content */}
       <section className="section-padding bg-background">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
-                Our Vision & Mission
-              </h2>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Curated by expert dermatologist from AIIMS, we prioritize correct diagnosis and long-term disease control over cosmetic 
-                over-treatment. Our clinic caters to patients suffering from common to complex skin, hair, and venereal 
-                conditions, ensuring comfort, privacy, and dignity at every step.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                We believe in accurate diagnosis, personalized treatment plans, and long-term patient 
-                satisfaction rather than temporary cosmetic solutions. Our clinic primarily focuses on clinical 
-                dermatology, while also offering aesthetic and procedural treatments performed with utmost 
-                safety and precision.
-              </p>
-              <div className="space-y-4">
-                {[
-                  "Accurate diagnosis using advanced diagnostic tools",
-                  "Science-based treatments with proven efficacy",
-                  "Patient comfort, privacy, and dignity at every step",
-                  "Affordable care without compromising quality",
-                ].map((item, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">{item}</span>
-                  </div>
-                ))}
+        <div className="container-custom max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
+              Our Vision & Mission
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              Curated by expert dermatologist from AIIMS, we prioritize correct diagnosis and long-term disease control. 
+              Our clinic focuses on clinical dermatology while offering aesthetic treatments performed with utmost safety and precision.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              "Accurate Diagnosis",
+              "Evidence-Based Care",
+              "Complete Privacy",
+              "Affordable Quality",
+            ].map((item, index) => (
+              <div key={index} className="text-center p-6 rounded-2xl bg-card border border-border">
+                <CheckCircle2 className="w-8 h-8 text-primary mx-auto mb-3" />
+                <span className="text-foreground font-medium">{item}</span>
               </div>
-            </div>
-            <div className="relative">
-              <img
-                src={doctorImage}
-                alt="DermaCare Clinic"
-                className="rounded-3xl shadow-lg w-full"
-              />
-              <div className="absolute -bottom-6 -left-6 w-48 h-48 rounded-2xl gradient-hero opacity-20 -z-10" />
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -149,49 +132,48 @@ const About = () => {
       </section>
 
       {/* Doctor Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding gradient-section">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <img
-                src={doctorImage}
-                alt="Dr. TamilKumar. S., MD DVL (AIIMS)"
-                className="rounded-3xl shadow-2xl w-full"
-              />
-              <div className="absolute -bottom-6 -right-6 w-48 h-48 rounded-2xl bg-primary/20 -z-10" />
-            </div>
-            <div>
-              <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4 border border-primary/20">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-4 border border-primary/20">
                 Meet Our Doctor
               </span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
                 Dr. TamilKumar. S.
               </h2>
-              <p className="text-lg font-semibold text-primary mb-4">
+              <p className="text-xl font-semibold text-primary mb-2">
                 MBBS, MD DVL (AIIMS)
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              <p className="text-lg text-muted-foreground">
                 Consultant Dermatologist, Venereologist & Trichologist
               </p>
-              <div className="space-y-4 mb-6">
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <div className="relative mx-auto max-w-sm">
+                <img
+                  src={doctorImage}
+                  alt="Dr. TamilKumar. S., MD DVL (AIIMS)"
+                  className="rounded-3xl shadow-2xl w-full"
+                />
+                <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-2xl bg-primary/20 -z-10" />
+              </div>
+              
+              <div className="space-y-3">
                 {[
                   "MBBS from Madras Medical College, Chennai",
                   "MD Dermatology from AIIMS Raipur",
-                  "Multiple scientific publications in various journals",
-                  "Special interest in clinical dermatology & hair disorders",
-                  "Expert in sexually transmitted diseases treatment",
-                  "Patient-centric approach with rational treatment",
+                  "Multiple scientific publications",
+                  "Expert in clinical dermatology & hair disorders",
+                  "Specialized in STD treatment",
                 ].map((item, index) => (
-                  <div key={index} className="flex items-start gap-3">
+                  <div key={index} className="flex items-start gap-3 p-4 rounded-xl bg-card border border-border">
                     <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-foreground">{item}</span>
                   </div>
                 ))}
               </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Dr. TamilKumar focuses on accurate diagnosis, rational treatment, and long-term 
-                disease management, ensuring every patient receives personalized and ethical care.
-              </p>
             </div>
           </div>
         </div>

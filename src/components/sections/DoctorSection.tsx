@@ -1,7 +1,7 @@
 import { Award, BookOpen, Users, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import doctorImage from "@/assets/doctor-portrait.jpg";
+import doctorImage from "@/assets/image.png";
 
 export function DoctorSection() {
   return (
@@ -46,26 +46,25 @@ export function DoctorSection() {
               Our Specialist
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
-              Dr. Rajesh Kumar
+              Dr. TamilKumar. S.
             </h2>
             <p className="text-xl text-primary font-medium mb-6">
-              MD (DVL), Dermatologist, Venereologist & Trichologist
+              MBBS, MD DVL (AIIMS)
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              With over 15 years of experience in clinical and aesthetic dermatology, 
-              Dr. Rajesh Kumar is committed to providing evidence-based care with a 
-              focus on accurate diagnosis and long-term disease management. Trained at 
-              premier institutions, his patient-centric approach has helped thousands 
-              achieve healthy skin and hair.
+              Consultant Dermatologist, Venereologist & Trichologist. Dr. TamilKumar has completed his 
+              MBBS from prestigious Madras Medical College, Chennai and MD Dermatology from AIIMS Raipur. 
+              With a patient-centric approach, Dr. TamilKumar focuses on accurate diagnosis, rational treatment, 
+              and long-term disease management.
             </p>
 
             {/* Credentials */}
             <div className="grid grid-cols-2 gap-4 mb-8">
               {[
-                { icon: Award, label: "MBBS, MD (DVL)" },
+                { icon: Award, label: "MD DVL from AIIMS" },
                 { icon: BookOpen, label: "Published Researcher" },
                 { icon: Users, label: "Expert Trichologist" },
-                { icon: Calendar, label: "15+ Years Practice" },
+                { icon: Calendar, label: "Clinical Specialist" },
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">

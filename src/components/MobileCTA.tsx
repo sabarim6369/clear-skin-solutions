@@ -3,7 +3,7 @@ import { Phone, Calendar, MessageCircle } from "lucide-react";
 
 export function MobileCTA() {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-card border-t border-border shadow-lg">
+    <div className="hidden">
       <div className="grid grid-cols-3 divide-x divide-border">
         <a
           href="tel:+919876543210"

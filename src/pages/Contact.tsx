@@ -54,112 +54,100 @@ const Contact = () => {
       </section>
 
       {/* Contact Content */}
-      <section className="section-padding bg-background">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
+      <section className="py-16 bg-background">
+        <div className="container-custom max-w-6xl">
+          <div className="grid lg:grid-cols-5 gap-8">
             {/* Contact Info */}
-            <div>
-              <h2 className="text-3xl font-display font-bold text-foreground mb-8">
+            <div className="lg:col-span-2">
+              <h2 className="text-2xl font-display font-bold text-foreground mb-6">
                 Contact Information
               </h2>
 
-              <div className="space-y-6 mb-10">
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
-                    <MapPin className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+              <div className="space-y-4">
+                <div className="flex items-start gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300 group">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <MapPin className="w-5 h-5 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold text-foreground mb-1">Address</h3>
-                    <p className="text-muted-foreground">
-                      39, Kamaraj Colony, Peramanur,<br />
-                      Near 4 Roads, Omalur Main Road,<br />
-                      Salem - 636007, Tamil Nadu
+                    <h3 className="font-semibold text-foreground mb-1 text-sm">Address</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      39, Kamaraj Colony, Peramanur, Near 4 Roads, Omalur Main Road, Salem - 636007
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
-                    <Phone className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+                <div className="flex items-start gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300 group">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <Phone className="w-5 h-5 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold text-foreground mb-1">Phone</h3>
-                    <a href="tel:+919790029573" className="text-muted-foreground hover:text-primary transition-colors">
+                    <h3 className="font-semibold text-foreground mb-1 text-sm">Phone</h3>
+                    <a href="tel:+919790029573" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                       +91 97900 29573
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
-                    <Mail className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+                <div className="flex items-start gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300 group">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <Mail className="w-5 h-5 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold text-foreground mb-1">Email</h3>
-                    <a href="mailto:contact.nalinam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    <h3 className="font-semibold text-foreground mb-1 text-sm">Email</h3>
+                    <a href="mailto:contact.nalinam@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors break-all">
                       contact.nalinam@gmail.com
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
-                    <Clock className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+                <div className="flex items-start gap-3 p-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300 group">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <Clock className="w-5 h-5 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
-                    <h3 className="font-display font-semibold text-foreground mb-1">Clinic Timings</h3>
-                    <p className="text-muted-foreground">
-                      Monday - Saturday: 5:00 PM - 8:00 PM<br />
-                      Sunday: Closed
+                    <h3 className="font-semibold text-foreground mb-1 text-sm">Clinic Timings</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Mon - Sat: 5:00 PM - 8:00 PM
                     </p>
-                    <p className="text-sm text-primary mt-2 font-medium">
-                      * By appointment only
+                    <p className="text-xs text-primary mt-1 font-medium">
+                      By appointment only
                     </p>
                   </div>
-                </div>
-              </div>
-
-              {/* Map Placeholder */}
-              <div className="rounded-2xl overflow-hidden border border-border h-64 bg-muted flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-2" />
-                  <p className="text-muted-foreground">Google Map Integration</p>
-                  <p className="text-sm text-muted-foreground">123 Medical Plaza, City</p>
                 </div>
               </div>
             </div>
 
             {/* Contact Form */}
-            <div>
-              <div className="p-8 md:p-10 rounded-3xl bg-card border border-border shadow-card">
-                <h2 className="text-2xl font-display font-bold text-foreground mb-2">
+            <div className="lg:col-span-3">
+              <div className="p-6 md:p-8 rounded-2xl bg-card border border-border shadow-md">
+                <h2 className="text-xl font-display font-bold text-foreground mb-2">
                   Send us a Message
                 </h2>
-                <p className="text-muted-foreground mb-8">
-                  Have a question? Fill out the form below and we'll get back to you.
+                <p className="text-sm text-muted-foreground mb-6">
+                  Fill out the form and we'll get back to you soon.
                 </p>
 
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-5">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-2">
+                    <div className="space-y-1.5">
                       <label className="text-sm font-medium text-foreground">Name *</label>
-                      <Input placeholder="Your name" required />
+                      <Input placeholder="Your name" required className="h-11" />
                     </div>
-                    <div className="space-y-2">
+                    <div className="space-y-1.5">
                       <label className="text-sm font-medium text-foreground">Phone *</label>
-                      <Input type="tel" placeholder="+91 XXXXX XXXXX" required />
+                      <Input type="tel" placeholder="+91 XXXXX XXXXX" required className="h-11" />
                     </div>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <label className="text-sm font-medium text-foreground">Email</label>
-                    <Input type="email" placeholder="your@email.com" />
+                    <Input type="email" placeholder="your@email.com" className="h-11" />
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <label className="text-sm font-medium text-foreground">Subject</label>
                     <Select>
-                      <SelectTrigger>
+                      <SelectTrigger className="h-11">
                         <SelectValue placeholder="Select a subject" />
                       </SelectTrigger>
                       <SelectContent>
@@ -172,16 +160,16 @@ const Contact = () => {
                     </Select>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <label className="text-sm font-medium text-foreground">Message *</label>
                     <Textarea 
                       placeholder="How can we help you?" 
-                      rows={5}
+                      rows={4}
                       required 
                     />
                   </div>
 
-                  <Button type="submit" size="lg" className="w-full gap-2" disabled={isSubmitting}>
+                  <Button type="submit" size="lg" className="w-full gap-2 h-11" disabled={isSubmitting}>
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
