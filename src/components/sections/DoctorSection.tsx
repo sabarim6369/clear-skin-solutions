@@ -22,7 +22,7 @@ export function DoctorSection() {
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-card/95 backdrop-blur-sm border border-border shadow-lg">
                 <div className="grid grid-cols-3 divide-x divide-border">
                   {[
-                    { value: "15+", label: "Years Exp." },
+                    { value: "3+", label: "Years Exp." },
                     { value: "10K+", label: "Patients" },
                     { value: "5+", label: "Publications" },
                   ].map((stat, index) => (

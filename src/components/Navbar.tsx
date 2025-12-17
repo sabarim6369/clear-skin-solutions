@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -38,17 +39,13 @@ export function Navbar() {
       <nav className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-xl gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">N</span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="font-display font-bold text-lg text-foreground">
-                Nalinam
-              </span>
-              <span className="block text-xs text-muted-foreground -mt-1">
-                Skin & Hair Clinic
-              </span>
+          <Link to="/" className="flex items-center group">
+            <div className="relative overflow-hidden rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
+              <img 
+                src={logo} 
+                alt="Nalinam Skin & Hair Clinic" 
+                className="h-12 md:h-16 w-auto object-cover group-hover:scale-105 transition-transform duration-300"
+              />
             </div>
           </Link>
 
