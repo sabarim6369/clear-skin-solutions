@@ -36,16 +36,16 @@ const Contact = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="section-padding gradient-section">
+      <section className="section-padding bg-gradient-to-br from-primary/5 via-background to-secondary/10">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-primary text-sm font-medium mb-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
               Contact Us
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6">
-              Get in <span className="text-gradient">Touch</span>
+              Get in <span className="text-primary">Touch</span>
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               Have questions or ready to book an appointment? Reach out to us through 
               any of the methods below.
             </p>
@@ -64,9 +64,9 @@ const Contact = () => {
               </h2>
 
               <div className="space-y-6 mb-10">
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border">
-                  <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary-foreground" />
+                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <MapPin className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Address</h3>
@@ -77,9 +77,9 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border">
-                  <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary-foreground" />
+                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <Phone className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Phone</h3>
@@ -89,9 +89,9 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border">
-                  <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-primary-foreground" />
+                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <Mail className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Email</h3>
@@ -101,9 +101,9 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border">
-                  <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-primary-foreground" />
+                <div className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                    <Clock className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Clinic Timings</h3>

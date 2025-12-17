@@ -49,17 +49,17 @@ const About = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="section-padding gradient-section">
+      <section className="section-padding bg-gradient-to-br from-primary/5 via-background to-secondary/10">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-primary text-sm font-medium mb-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6">
               Ethical Dermatology for{" "}
-              <span className="text-gradient">Lasting Health</span>
+              <span className="text-primary">Lasting Health</span>
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               At DermaCare, we believe in providing honest, patient-centered dermatological 
               care that focuses on accurate diagnosis and long-term disease management.
             </p>
@@ -132,10 +132,10 @@ const About = () => {
             {philosophy.map((item, index) => (
               <div
                 key={index}
-                className="p-8 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-card transition-all duration-300"
+                className="group p-8 rounded-2xl bg-card border border-border hover:border-primary/40 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
               >
-                <div className="w-14 h-14 rounded-xl gradient-hero flex items-center justify-center mb-6">
-                  <item.icon className="w-7 h-7 text-primary-foreground" />
+                <div className="w-14 h-14 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center mb-6 transition-colors duration-300">
+                  <item.icon className="w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                 </div>
                 <h3 className="text-xl font-display font-semibold text-foreground mb-3">
                   {item.title}
@@ -161,8 +161,8 @@ const About = () => {
                   { icon: Shield, title: "STD Discretion", desc: "Complete privacy for sensitive cases" },
                   { icon: Heart, title: "Adequate Time", desc: "Thorough explanation and care" },
                 ].map((item, index) => (
-                  <div key={index} className="p-6 rounded-2xl bg-secondary border border-border">
-                    <item.icon className="w-8 h-8 text-primary mb-4" />
+                  <div key={index} className="group p-6 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
+                    <item.icon className="w-8 h-8 text-primary mb-4 group-hover:scale-110 transition-transform duration-300" />
                     <h4 className="font-display font-semibold text-foreground mb-2">{item.title}</h4>
                     <p className="text-sm text-muted-foreground">{item.desc}</p>
                   </div>

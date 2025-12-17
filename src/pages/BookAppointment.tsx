@@ -43,17 +43,17 @@ const BookAppointment = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="section-padding gradient-section">
+      <section className="section-padding bg-gradient-to-br from-primary/5 via-background to-secondary/10">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-primary text-sm font-medium mb-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
               Book Appointment
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6">
               Schedule Your{" "}
-              <span className="text-gradient">Consultation</span>
+              <span className="text-primary">Consultation</span>
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               Fill out the form below and we'll contact you to confirm your appointment 
               at a convenient time.
             </p>
@@ -72,9 +72,9 @@ const BookAppointment = () => {
               </h2>
               <div className="space-y-4 mb-10">
                 {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full gradient-hero flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <CheckCircle2 className="w-4 h-4 text-primary-foreground" />
+                  <div key={index} className="flex items-start gap-3 group">
+                    <div className="w-6 h-6 rounded-full bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 mt-0.5 transition-colors duration-300">
+                      <CheckCircle2 className="w-4 h-4 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                     </div>
                     <span className="text-foreground">{benefit}</span>
                   </div>
@@ -83,10 +83,10 @@ const BookAppointment = () => {
 
               {/* Contact Options */}
               <div className="space-y-4">
-                <div className="p-5 rounded-2xl bg-card border border-border">
+                <div className="p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-6 h-6 text-primary-foreground" />
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                      <Phone className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                     </div>
                     <div>
                       <h3 className="font-display font-semibold text-foreground">Call to Book</h3>
@@ -97,10 +97,10 @@ const BookAppointment = () => {
                   </div>
                 </div>
 
-                <div className="p-5 rounded-2xl bg-card border border-border">
+                <div className="p-5 rounded-2xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-6 h-6 text-primary-foreground" />
+                    <div className="w-12 h-12 rounded-xl bg-primary/10 group-hover:bg-primary flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                      <Clock className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                     </div>
                     <div>
                       <h3 className="font-display font-semibold text-foreground">Clinic Hours</h3>
@@ -115,8 +115,8 @@ const BookAppointment = () => {
             <div className="lg:col-span-3">
               <div className="p-8 md:p-10 rounded-3xl bg-card border border-border shadow-card">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center">
-                    <Calendar className="w-6 h-6 text-primary-foreground" />
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                    <Calendar className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h2 className="text-2xl font-display font-bold text-foreground">
