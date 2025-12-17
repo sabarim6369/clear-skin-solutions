@@ -140,7 +140,7 @@ const About = () => {
                 Meet Our Doctor
               </span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-                Dr. TamilKumar. S.
+                Dr. TamilKumar.S
               </h2>
               <p className="text-xl font-semibold text-primary mb-2">
                 MBBS, MD DVL (AIIMS)
@@ -154,7 +154,7 @@ const About = () => {
               <div className="relative mx-auto max-w-sm">
                 <img
                   src={doctorImage}
-                  alt="Dr. TamilKumar. S., MD DVL (AIIMS)"
+                  alt="Dr. TamilKumar.S., MD DVL (AIIMS)"
                   className="rounded-3xl shadow-2xl w-full"
                 />
                 <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-2xl bg-primary/20 -z-10" />

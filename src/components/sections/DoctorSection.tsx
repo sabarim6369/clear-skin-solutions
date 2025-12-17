@@ -46,7 +46,7 @@ export function DoctorSection() {
               Our Specialist
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
-              Dr. TamilKumar. S.
+              Dr. TamilKumar.S
             </h2>
             <p className="text-xl text-primary font-medium mb-6">
               MBBS, MD DVL (AIIMS)
