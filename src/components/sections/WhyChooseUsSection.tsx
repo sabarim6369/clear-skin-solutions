@@ -51,19 +51,19 @@ export function WhyChooseUsSection() {
               Why Choose Us
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-6">
-              Ethical, Patient-Centered Dermatology
+              Why Choose Nalinam?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              We believe in treating patients, not just conditions. Our practice is built on honesty, 
-              transparency, and a commitment to your long-term skin health.
+              Delivering ethical, evidence-based medical practice with focus on clinical dermatology and 
+              disease cure with affordability. Curated by expert dermatologist from AIIMS.
             </p>
 
             <div className="space-y-4">
               {[
-                "Accurate diagnosis using advanced tools",
-                "No unnecessary cosmetic procedures",
-                "Affordable treatment options",
-                "Personalized care for every patient",
+                "Appointment-based system - minimal 5-10 min wait time",
+                "Ethical prescriptions with essential products only",
+                "Affordable quality care focused on cure",
+                "Complete confidentiality and one-to-one consultation",
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full gradient-hero flex items-center justify-center flex-shrink-0">

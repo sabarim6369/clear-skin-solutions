@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why should I choose this clinic over others?",
-    answer: "We focus on ethical, evidence-based medicine rather than sales-driven cosmetic treatments. Our approach is centered on accurate diagnosis, essential medications only, and long-term disease management. We treat the root cause, not just symptoms.",
+    question: "Why choose us over other dermatologists?",
+    answer: "Expert evidence-based dermatology consultation from AIIMS-trained Dr. TamilKumar with a seamless experience at an affordable cost. We strictly do not endorse/prescribe a medicine/product for mere sales purpose, rather we deliver minimal prescription with essential products focusing on the cure.",
   },
   {
-    question: "What is the average waiting time?",
-    answer: "Thanks to our appointment-based, software-driven system, the average waiting time is only 5-10 minutes. We respect your time and ensure efficient consultations without compromising on quality.",
+    question: "What is the average waiting time in the clinic?",
+    answer: "We operate on appointment-based, software-driven digital system. So the average waiting time is way less compared to other clinics, although it may vary from 5-10 mins.",
   },
   {
     question: "Is STD consultation confidential?",
-    answer: "Absolutely. We maintain strict confidentiality for all patients, especially for sensitive conditions. Your privacy and dignity are our top priorities. All consultations are one-on-one with the doctor.",
+    answer: "Yes. Complete confidentiality is maintained. All STD consultations are strictly confidential with one-to-one consultation. Your privacy and dignity are our top priorities.",
   },
   {
-    question: "Do you prescribe only necessary medications?",
-    answer: "Yes. We follow an ethical practice where we prescribe only essential, clinically-indicated medications. We do not push unnecessary products or treatments for commercial gain.",
+    question: "Do you offer honest treatment advice?",
+    answer: "We strictly do not endorse/prescribe a medicine/product for mere sales purpose, rather we deliver minimal prescription with essential products focusing on the cure. We follow standard treatment guidelines and avoid unnecessary procedures.",
   },
   {
-    question: "Are the procedures safe?",
-    answer: "All procedures are performed by a qualified dermatologist under sterile conditions using approved medical equipment. Each treatment is customized based on your skin type and condition for maximum safety and efficacy.",
+    question: "Are procedures safe?",
+    answer: "All procedures are performed by qualified MD Dermatologist under sterile conditions using approved medical equipment. Each treatment is customized based on your skin type and condition following standard medical safety protocols.",
   },
   {
     question: "How do I book an appointment?",
-    answer: "You can book an appointment through our website's booking form, call us directly, or send a WhatsApp message. We operate on an appointment-only basis to ensure personalized care.",
+    answer: "You can call us at +91 97900 29573 to book an appointment. Consultation is by appointment only from Monday to Saturday, 5:00 PM – 8:00 PM. Sunday is closed.",
   },
 ];
 

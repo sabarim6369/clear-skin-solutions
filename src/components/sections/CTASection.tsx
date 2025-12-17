@@ -35,9 +35,9 @@ export function CTASection() {
               className="gap-2 text-base bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               asChild
             >
-              <a href="tel:+919876543210">
+              <a href="tel:+919790029573">
                 <Phone className="w-5 h-5" />
-                Call: +91 98765 43210
+                Call: +91 97900 29573
               </a>
             </Button>
           </div>

@@ -56,12 +56,12 @@ const About = () => {
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6">
-              Ethical Dermatology for{" "}
-              <span className="text-primary">Lasting Health</span>
+              About{" "}
+              <span className="text-primary">Nalinam Skin & Hair Clinic</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              At DermaCare, we believe in providing honest, patient-centered dermatological 
-              care that focuses on accurate diagnosis and long-term disease management.
+              Nalinam Skin & Hair Clinic was established with the vision of delivering high-quality affordable 
+              dermatological care rooted in science and clinical expertise.
             </p>
           </div>
         </div>
@@ -76,16 +76,15 @@ const About = () => {
                 Our Vision & Mission
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                DermaCare was founded with a simple yet powerful vision: to provide 
-                affordable, ethical, and evidence-based dermatological care to everyone 
-                who needs it. We believe that quality healthcare should be accessible, 
-                not just a privilege for the few.
+                Curated by expert dermatologist from AIIMS, we prioritize correct diagnosis and long-term disease control over cosmetic 
+                over-treatment. Our clinic caters to patients suffering from common to complex skin, hair, and venereal 
+                conditions, ensuring comfort, privacy, and dignity at every step.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Unlike clinics that prioritize cosmetic procedures and product sales, 
-                we focus on clinical dermatology and treating the root cause of skin 
-                and hair conditions. Our approach is guided by science, ethics, and a 
-                genuine commitment to your long-term health.
+                We believe in accurate diagnosis, personalized treatment plans, and long-term patient 
+                satisfaction rather than temporary cosmetic solutions. Our clinic primarily focuses on clinical 
+                dermatology, while also offering aesthetic and procedural treatments performed with utmost 
+                safety and precision.
               </p>
               <div className="space-y-4">
                 {[
@@ -149,8 +148,57 @@ const About = () => {
         </div>
       </section>
 
-      {/* Patient Care Section */}
+      {/* Doctor Section */}
       <section className="section-padding bg-background">
+        <div className="container-custom">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <img
+                src={doctorImage}
+                alt="Dr. TamilKumar. S., MD DVL (AIIMS)"
+                className="rounded-3xl shadow-2xl w-full"
+              />
+              <div className="absolute -bottom-6 -right-6 w-48 h-48 rounded-2xl bg-primary/20 -z-10" />
+            </div>
+            <div>
+              <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4 border border-primary/20">
+                Meet Our Doctor
+              </span>
+              <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
+                Dr. TamilKumar. S.
+              </h2>
+              <p className="text-lg font-semibold text-primary mb-4">
+                MBBS, MD DVL (AIIMS)
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                Consultant Dermatologist, Venereologist & Trichologist
+              </p>
+              <div className="space-y-4 mb-6">
+                {[
+                  "MBBS from Madras Medical College, Chennai",
+                  "MD Dermatology from AIIMS Raipur",
+                  "Multiple scientific publications in various journals",
+                  "Special interest in clinical dermatology & hair disorders",
+                  "Expert in sexually transmitted diseases treatment",
+                  "Patient-centric approach with rational treatment",
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-foreground">{item}</span>
+                  </div>
+                ))}
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                Dr. TamilKumar focuses on accurate diagnosis, rational treatment, and long-term 
+                disease management, ensuring every patient receives personalized and ethical care.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Patient Care Section */}
+      <section className="section-padding gradient-section">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">

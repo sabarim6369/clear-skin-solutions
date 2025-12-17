@@ -40,11 +40,11 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-xl gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">D</span>
+              <span className="text-primary-foreground font-bold text-lg">N</span>
             </div>
             <div className="hidden sm:block">
               <span className="font-display font-bold text-lg text-foreground">
-                DermaCare
+                Nalinam
               </span>
               <span className="block text-xs text-muted-foreground -mt-1">
                 Skin & Hair Clinic

@@ -90,8 +90,8 @@ const BookAppointment = () => {
                     </div>
                     <div>
                       <h3 className="font-display font-semibold text-foreground">Call to Book</h3>
-                      <a href="tel:+919876543210" className="text-primary hover:underline">
-                        +91 98765 43210
+                      <a href="tel:+919790029573" className="text-primary hover:underline">
+                        +91 97900 29573
                       </a>
                     </div>
                   </div>

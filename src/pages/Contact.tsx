@@ -71,8 +71,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Address</h3>
                     <p className="text-muted-foreground">
-                      123 Medical Plaza, Healthcare District,<br />
-                      City - 400001, State, India
+                      39, Kamaraj Colony, Peramanur,<br />
+                      Near 4 Roads, Omalur Main Road,<br />
+                      Salem - 636007, Tamil Nadu
                     </p>
                   </div>
                 </div>
@@ -83,8 +84,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Phone</h3>
-                    <a href="tel:+919876543210" className="text-muted-foreground hover:text-primary transition-colors">
-                      +91 98765 43210
+                    <a href="tel:+919790029573" className="text-muted-foreground hover:text-primary transition-colors">
+                      +91 97900 29573
                     </a>
                   </div>
                 </div>
@@ -95,8 +96,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-display font-semibold text-foreground mb-1">Email</h3>
-                    <a href="mailto:info@dermacare.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@dermacare.com
+                    <a href="mailto:contact.nalinam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      contact.nalinam@gmail.com
                     </a>
                   </div>
                 </div>

@@ -30,14 +30,13 @@ export function HeroSection() {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary-foreground leading-tight">
             Best Skin & Hair Clinic{" "}
-            <span className="text-primary">in the City</span>
+            <span className="text-primary">in Salem</span>
           </h1>
 
           {/* Tagline */}
           <p className="text-lg md:text-xl text-primary-foreground/80 leading-relaxed max-w-xl">
-            Experience ethical, evidence-based dermatological care. We focus on
-            accurate diagnosis and long-term disease management, not temporary
-            cosmetic fixes.
+            At Nalinam Skin & Hair Clinic, we are committed to providing affordable, comprehensive, ethical, 
+            and evidence-based care for all skin and hair concerns.
           </p>
 
           {/* Stats */}

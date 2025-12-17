@@ -10,18 +10,18 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">D</span>
+                <span className="text-primary-foreground font-bold text-lg">N</span>
               </div>
               <div>
-                <span className="font-display font-bold text-lg">DermaCare</span>
+                <span className="font-display font-bold text-lg">Nalinam</span>
                 <span className="block text-xs opacity-70 -mt-1">
                   Skin & Hair Clinic
                 </span>
               </div>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
-              Providing ethical, evidence-based dermatological care with a focus on
-              accurate diagnosis and long-term disease management.
+              Providing affordable, comprehensive, ethical, and evidence-based care for all skin and hair concerns. 
+              Best Skin and Hair Clinic in Salem.
             </p>
             <div className="flex gap-4">
               <a
@@ -101,19 +101,19 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-sm opacity-80">
-                  123 Medical Plaza, Healthcare District, City - 400001
+                  39, Kamaraj Colony, Peramanur, Near 4 Roads, Omalur Main Road, Salem - 636007
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="tel:+919876543210" className="text-sm opacity-80 hover:opacity-100">
-                  +91 98765 43210
+                <a href="tel:+919790029573" className="text-sm opacity-80 hover:opacity-100">
+                  +91 97900 29573
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@dermacare.com" className="text-sm opacity-80 hover:opacity-100">
-                  info@dermacare.com
+                <a href="mailto:contact.nalinam@gmail.com" className="text-sm opacity-80 hover:opacity-100">
+                  contact.nalinam@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -131,7 +131,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-primary/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm opacity-70">
-              © {new Date().getFullYear()} DermaCare Skin & Hair Clinic. All rights reserved.
+              © {new Date().getFullYear()} Nalinam Skin & Hair Clinic. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-sm opacity-70 hover:opacity-100 transition-opacity">
