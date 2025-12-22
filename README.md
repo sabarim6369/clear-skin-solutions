@@ -1,73 +1,194 @@
-# Welcome to your Lovable project
+# Nalinam Skin & Hair Clinic Website
 
-## Project info
+A modern, responsive website for Nalinam Skin & Hair Clinic, providing comprehensive information about dermatology and hair care services in Salem.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🏥 About
 
-## How can I edit this code?
+Nalinam Skin & Hair Clinic offers affordable, comprehensive, ethical, and evidence-based care for all skin and hair concerns. Located in Salem, Tamil Nadu, the clinic provides expert dermatological consultations and advanced cosmetic procedures.
 
-There are several ways of editing your application.
+**Clinic Address:**  
+39, Kamaraj Colony, Peramanur  
+Near 4 Roads, Omalur Main Road  
+Salem - 636007
 
-**Use Lovable**
+**Contact:**  
+📞 +91 97900 29573  
+📧 contact.nalinam@gmail.com
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**Timings:**  
+Monday - Saturday: 5:00 PM - 8:00 PM  
+(By appointment only)
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- **Responsive Design** - Optimized for all devices (mobile, tablet, desktop)
+- **Interactive UI** - Smooth animations and modern user experience
+- **Online Booking** - Easy appointment scheduling system
+- **Service Catalog** - Comprehensive listing of dermatology and cosmetic services
+- **Doctor Information** - Detailed profile and qualifications
+- **Contact Integration** - Interactive Google Maps and contact form
+- **FAQ Section** - Answers to common patient questions
+- **SEO Optimized** - Better search engine visibility
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend Framework:** React 18 with TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Routing:** React Router DOM
+- **Animations:** Framer Motion (via shadcn)
+- **Forms:** React Hook Form
+- **Package Manager:** Bun
 
-Follow these steps:
+## 📦 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js (v18 or higher) or Bun
+- Git
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Setup
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd clear-skin-solutions
+```
+
+2. Install dependencies:
+```bash
+# Using Bun
+bun install
+
+# Or using npm
+npm install
+```
+
+3. Start the development server:
+```bash
+# Using Bun
+bun run dev
+
+# Or using npm
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Build & Deployment
 
-**Use GitHub Codespaces**
+### Build for Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# Using Bun
+bun run build
 
-## What technologies are used for this project?
+# Or using npm
+npm run build
+```
 
-This project is built with:
+The production build will be created in the `dist` directory.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Preview Production Build
 
-## How can I deploy this project?
+```bash
+# Using Bun
+bun run preview
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+# Or using npm
+npm run preview
+```
 
-## Can I connect a custom domain to my Lovable project?
+### Linting
 
-Yes, you can!
+```bash
+# Using Bun
+bun run lint
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Or using npm
+npm run lint
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📁 Project Structure
+
+```
+clear-skin-solutions/
+├── src/
+│   ├── components/          # Reusable components
+│   │   ├── sections/        # Page sections
+│   │   └── ui/             # shadcn/ui components
+│   ├── pages/              # Route pages
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utility functions
+│   ├── assets/             # Images and static files
+│   ├── App.tsx             # Main app component
+│   └── main.tsx            # Entry point
+├── public/                 # Public assets
+├── index.html              # HTML template
+├── package.json            # Dependencies
+├── vite.config.ts          # Vite configuration
+├── tailwind.config.ts      # Tailwind configuration
+└── tsconfig.json           # TypeScript configuration
+```
+
+## 🎨 Key Pages
+
+- **Home (`/`)** - Landing page with hero section, services overview, and CTAs
+- **About (`/about`)** - Information about the clinic and doctor
+- **Services (`/services`)** - Detailed service catalog
+- **Contact (`/contact`)** - Contact information, form, and interactive map
+- **Book Appointment (`/book-appointment`)** - Online appointment booking form
+
+## 🧩 UI Components
+
+This project uses [shadcn/ui](https://ui.shadcn.com/) components:
+- Button, Input, Textarea
+- Card, Badge, Alert
+- Dialog, Sheet, Drawer
+- Select, Checkbox, Radio Group
+- Accordion, Tabs, Carousel
+- Toast notifications
+- And many more...
+
+## 📱 Responsive Breakpoints
+
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🔧 Configuration
+
+### Tailwind CSS
+Custom theme configuration in [tailwind.config.ts](tailwind.config.ts)
+
+### TypeScript
+Type checking configured in [tsconfig.json](tsconfig.json)
+
+### Vite
+Build and dev server settings in [vite.config.ts](vite.config.ts)
+
+## 🤝 Contributing
+
+If you'd like to contribute to this project:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is proprietary and confidential. Unauthorized copying or distribution is prohibited.
+
+## 📞 Support
+
+For any queries or support:
+- Email: contact.nalinam@gmail.com
+- Phone: +91 97900 29573
+
+---
+
+**Built with ❤️ for Nalinam Skin & Hair Clinic, Salem**
