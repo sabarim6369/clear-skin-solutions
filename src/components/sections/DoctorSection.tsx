@@ -23,7 +23,7 @@ export function DoctorSection() {
                 <div className="grid grid-cols-3 divide-x divide-border">
                   {[
                     { value: "3+", label: "Years Exp." },
-  { value: "5+", label: "Conferences" },
+  { value: "20+", label: "Conferences" },
                     { value: "5+", label: "Publications" },
                   ].map((stat, index) => (
                     <div key={index} className="text-center px-2">
