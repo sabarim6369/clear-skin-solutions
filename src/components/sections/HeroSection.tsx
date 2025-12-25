@@ -23,7 +23,7 @@ export function HeroSection() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm border border-primary/30">
             <Shield className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-primary">
-Dermatology You Can Trust
+Dermatologist You Can Trust
             </span>
           </div>
 
@@ -43,7 +43,7 @@ Dermatology You Can Trust
           <div className="flex flex-wrap gap-6 pt-4">
             {[
               { icon: Award, label: "MD Dermatologist", sublabel: "Board Certified" },
-              { icon: Clock, label: "5-10 min", sublabel: "Wait Time" },
+{ icon: Clock, label: "Flexible", sublabel: "Clinic Hours" }
               // { icon: Shield, label: "100%", sublabel: "Confidential" },
             ].map((stat, index) => (
               <div key={index} className="flex items-center gap-3">
