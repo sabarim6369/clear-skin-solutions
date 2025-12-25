@@ -45,23 +45,7 @@ const serviceCategories = [
       "Seborrheic Dermatitis",
     ],
   },
-  {
-    id: "std",
-    icon: ShieldCheck,
-    title: "STD Consultation & Treatment",
-    description: "Confidential, judgment-free consultation and treatment for sexually transmitted conditions.",
-    services: [
-      "Confidential Consultation",
-      "Genital Ulcers & Discharge",
-      "Genital & Non-Genital Warts",
-      "Herpes Infections",
-      "Syphilis & Other STDs",
-      "Sexual Health Counseling",
-      "Partner Counseling",
-      "Follow-up Care",
-    ],
-    note: "All STD consultations are strictly confidential. We maintain complete privacy and discretion.",
-  },
+ 
   {
     id: "procedures",
     icon: Scissors,
@@ -93,6 +77,23 @@ const serviceCategories = [
       "Skin Tag Removal",
       "Mole Removal (Medical & Cosmetic)",
     ],
+  },
+   {
+    id: "std",
+    icon: ShieldCheck,
+    title: "STD Consultation & Treatment",
+    description: "Confidential, judgment-free consultation and treatment for sexually transmitted conditions.",
+    services: [
+      "Confidential Consultation",
+      "Genital Ulcers & Discharge",
+      "Genital & Non-Genital Warts",
+      "Herpes Infections",
+      "Syphilis & Other STDs",
+      "Sexual Health Counseling",
+      "Partner Counseling",
+      "Follow-up Care",
+    ],
+    note: "All STD consultations are strictly confidential. We maintain complete privacy and discretion.",
   },
 ];
 
