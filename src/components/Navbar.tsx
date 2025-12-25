@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -39,13 +38,22 @@ export function Navbar() {
       <nav className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center group">
-            <div className="relative overflow-hidden rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
-              <img 
-                src={logo} 
-                alt="Nalinam Skin & Hair Clinic" 
-                className="h-12 md:h-16 w-auto object-cover group-hover:scale-105 transition-transform duration-300"
-              />
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className="relative">
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <span className="text-white font-bold text-xl md:text-2xl">N</span>
+              </div>
+              <div className="absolute -bottom-1 -right-1 w-3 h-3 md:w-4 md:h-4 bg-accent rounded-full border-2 border-background"></div>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xl md:text-2xl font-bold tracking-tight leading-none">
+                <span className="bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
+                  Nalinam
+                </span>
+              </span>
+              <span className="text-[9px] md:text-[11px] text-muted-foreground font-semibold tracking-[0.2em] uppercase mt-0.5">
+                Skin & Hair Clinic
+              </span>
             </div>
           </Link>
 

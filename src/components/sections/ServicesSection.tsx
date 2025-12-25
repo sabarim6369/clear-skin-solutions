@@ -21,12 +21,7 @@ const services = [
     description: "Expert evaluation and treatment of hair loss, alopecia, scalp conditions, and medical hair restoration.",
     link: "/services#hair",
   },
-  {
-    icon: ShieldCheck,
-    title: "STD Consultation",
-    description: "Confidential, judgment-free consultation and treatment for all sexually transmitted conditions.",
-    link: "/services#std",
-  },
+ 
   {
     icon: Scissors,
     title: "Dermatologic Procedures",
@@ -38,6 +33,12 @@ const services = [
     title: "Aesthetic Dermatology",
     description: "Evidence-based cosmetic treatments including PRP therapy, chemical peels, and pigmentation correction.",
     link: "/services#aesthetic",
+  },
+   {
+    icon: ShieldCheck,
+    title: "STD Consultation",
+    description: "Confidential, judgment-free consultation and treatment for all sexually transmitted conditions.",
+    link: "/services#std",
   },
 ];
 

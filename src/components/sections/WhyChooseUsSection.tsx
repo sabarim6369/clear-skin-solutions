@@ -58,7 +58,7 @@ export function WhyChooseUsSection() {
               disease cure with affordability. Curated by expert dermatologist from AIIMS.
             </p>
 
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               {[
                 "Appointment-based system - minimal 5-10 min wait time",
                 "Ethical prescriptions with essential products only",
@@ -72,7 +72,7 @@ export function WhyChooseUsSection() {
                   <span className="text-foreground font-medium">{item}</span>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Features Grid */}
