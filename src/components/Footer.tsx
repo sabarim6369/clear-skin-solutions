@@ -57,7 +57,6 @@ export function Footer() {
                 { name: "About Us", href: "/about" },
                 { name: "Services", href: "/services" },
                 { name: "Contact", href: "/contact" },
-                { name: "Book Appointment", href: "/book-appointment" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
@@ -68,6 +67,16 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  href="https://dikidi.net/1995470"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm opacity-80 hover:opacity-100 hover:text-primary transition-all"
+                >
+                  Book Appointment
+                </a>
+              </li>
             </ul>
           </div>
 

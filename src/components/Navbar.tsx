@@ -83,10 +83,10 @@ export function Navbar() {
               </a>
             </Button>
             <Button size="sm" className="gap-2" asChild>
-              <Link to="/book-appointment">
+              <a href="https://dikidi.net/1995470" target="_blank" rel="noopener noreferrer">
                 <Calendar className="w-4 h-4" />
                 Book Appointment
-              </Link>
+              </a>
             </Button>
           </div>
 
@@ -129,10 +129,10 @@ export function Navbar() {
                   </a>
                 </Button>
                 <Button className="w-full gap-2" asChild>
-                  <Link to="/book-appointment">
+                  <a href="https://dikidi.net/1995470" target="_blank" rel="noopener noreferrer">
                     <Calendar className="w-4 h-4" />
                     Book Appointment
-                  </Link>
+                  </a>
                 </Button>
               </div>
             </div>

@@ -23,11 +23,11 @@ export function CTASection() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" className="gap-2 text-base" asChild>
-              <Link to="/book-appointment">
+              <a href="https://dikidi.net/1995470" target="_blank" rel="noopener noreferrer">
                 <Calendar className="w-5 h-5" />
                 Book Appointment
                 <ArrowRight className="w-5 h-5" />
-              </Link>
+              </a>
             </Button>
             <Button
               variant="outline"

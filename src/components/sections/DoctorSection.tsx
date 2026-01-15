@@ -76,10 +76,10 @@ export function DoctorSection() {
             </div>
 
             <Button size="lg" className="gap-2" asChild>
-              <Link to="/book-appointment">
+              <a href="https://dikidi.net/1995470" target="_blank" rel="noopener noreferrer">
                 <Calendar className="w-5 h-5" />
                 Book Consultation
-              </Link>
+              </a>
             </Button>
           </div>
         </div>
